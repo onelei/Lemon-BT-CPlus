@@ -1,0 +1,117 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="inc">
+      <UniqueIdentifier>{f4aa0bc2-1916-4ce2-ba74-eb001db93e16}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src">
+      <UniqueIdentifier>{dc1ed2aa-214b-4f6b-beab-2b5eaa76d60d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="test">
+      <UniqueIdentifier>{b1bee99f-b3b1-4787-9501-ef101ce31e89}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="test\test.cpp">
+      <Filter>test</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Node.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Composite.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Select.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Action.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Condition.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Debug.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Decorator.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Parallel.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ParallelSelector.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ParallelSequence.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Sequence.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="test\testNode1.cpp">
+      <Filter>test</Filter>
+    </ClCompile>
+    <ClCompile Include="test\testNode2.cpp">
+      <Filter>test</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="inc\Node.h">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\Result.h">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\Composite.h">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\Select.h">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\Action.h">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\Condition.h">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\Debug.h">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\Decorator.h">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\Parallel.h">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\ParallelSelector.h">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\ParallelSequence.h">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\Sequence.h">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="test\testNode1.h">
+      <Filter>test</Filter>
+    </ClInclude>
+    <ClInclude Include="test\testNode2.h">
+      <Filter>test</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
