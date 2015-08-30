@@ -1,4 +1,4 @@
-# Lemon-BT-CPlus
+# lemon-bt-cplus
 A behavior tree framework, using the C++ language.
 
 # Node  
